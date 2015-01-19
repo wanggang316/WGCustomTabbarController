@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6C0AF701A6CE74D0057FE9D /* WGTabbarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C0AF6F1A6CE74D0057FE9D /* WGTabbarAnimation.m */; };
+		D6D860FE1A6D035800E52F5A /* WGTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D860FD1A6D035800E52F5A /* WGTabbarController.m */; };
+		D6D861071A6D03AF00E52F5A /* bottom_indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D860FF1A6D03AF00E52F5A /* bottom_indicator.png */; };
+		D6D861081A6D03AF00E52F5A /* LDTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D861011A6D03AF00E52F5A /* LDTabbar.m */; };
+		D6D861091A6D03AF00E52F5A /* LDTabbarItemCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D861041A6D03AF00E52F5A /* LDTabbarItemCollectionView.m */; };
+		D6D8610A1A6D03AF00E52F5A /* LDTabBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D861061A6D03AF00E52F5A /* LDTabBaseCell.m */; };
 		D6F9A0121A6C955800F698F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F9A0111A6C955800F698F7 /* main.m */; };
 		D6F9A0151A6C955800F698F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F9A0141A6C955800F698F7 /* AppDelegate.m */; };
-		D6F9A0181A6C955800F698F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F9A0171A6C955800F698F7 /* ViewController.m */; };
 		D6F9A01B1A6C955800F698F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F9A0191A6C955800F698F7 /* Main.storyboard */; };
 		D6F9A01D1A6C955800F698F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F9A01C1A6C955800F698F7 /* Images.xcassets */; };
 		D6F9A0201A6C955800F698F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6F9A01E1A6C955800F698F7 /* LaunchScreen.xib */; };
@@ -27,13 +32,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D6C0AF6E1A6CE74D0057FE9D /* WGTabbarAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTabbarAnimation.h; sourceTree = "<group>"; };
+		D6C0AF6F1A6CE74D0057FE9D /* WGTabbarAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTabbarAnimation.m; sourceTree = "<group>"; };
+		D6D860FC1A6D035800E52F5A /* WGTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTabbarController.h; sourceTree = "<group>"; };
+		D6D860FD1A6D035800E52F5A /* WGTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTabbarController.m; sourceTree = "<group>"; };
+		D6D860FF1A6D03AF00E52F5A /* bottom_indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom_indicator.png; sourceTree = "<group>"; };
+		D6D861001A6D03AF00E52F5A /* LDTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDTabbar.h; sourceTree = "<group>"; };
+		D6D861011A6D03AF00E52F5A /* LDTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDTabbar.m; sourceTree = "<group>"; };
+		D6D861021A6D03AF00E52F5A /* LDTabbarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDTabbarDelegate.h; sourceTree = "<group>"; };
+		D6D861031A6D03AF00E52F5A /* LDTabbarItemCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDTabbarItemCollectionView.h; sourceTree = "<group>"; };
+		D6D861041A6D03AF00E52F5A /* LDTabbarItemCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDTabbarItemCollectionView.m; sourceTree = "<group>"; };
+		D6D861051A6D03AF00E52F5A /* LDTabBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDTabBaseCell.h; sourceTree = "<group>"; };
+		D6D861061A6D03AF00E52F5A /* LDTabBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDTabBaseCell.m; sourceTree = "<group>"; };
+		D6D8610B1A6D23C000E52F5A /* WGTabbarControllerMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTabbarControllerMacro.h; sourceTree = "<group>"; };
 		D6F9A00C1A6C955800F698F7 /* WGCustomTabbarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGCustomTabbarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F9A0101A6C955800F698F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6F9A0111A6C955800F698F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D6F9A0131A6C955800F698F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6F9A0141A6C955800F698F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D6F9A0161A6C955800F698F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D6F9A0171A6C955800F698F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D6F9A01A1A6C955800F698F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6F9A01C1A6C955800F698F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D6F9A01F1A6C955800F698F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -60,6 +76,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6D860FB1A6D033300E52F5A /* WGTabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				D6D860FC1A6D035800E52F5A /* WGTabbarController.h */,
+				D6D860FD1A6D035800E52F5A /* WGTabbarController.m */,
+				D6D861001A6D03AF00E52F5A /* LDTabbar.h */,
+				D6D861011A6D03AF00E52F5A /* LDTabbar.m */,
+				D6D861031A6D03AF00E52F5A /* LDTabbarItemCollectionView.h */,
+				D6D861041A6D03AF00E52F5A /* LDTabbarItemCollectionView.m */,
+				D6D861051A6D03AF00E52F5A /* LDTabBaseCell.h */,
+				D6D861061A6D03AF00E52F5A /* LDTabBaseCell.m */,
+				D6D861021A6D03AF00E52F5A /* LDTabbarDelegate.h */,
+				D6D860FF1A6D03AF00E52F5A /* bottom_indicator.png */,
+				D6D8610B1A6D23C000E52F5A /* WGTabbarControllerMacro.h */,
+			);
+			path = WGTabbarController;
+			sourceTree = "<group>";
+		};
 		D6F9A0031A6C955800F698F7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,14 +115,15 @@
 		D6F9A00E1A6C955800F698F7 /* WGCustomTabbarController */ = {
 			isa = PBXGroup;
 			children = (
+				D6D860FB1A6D033300E52F5A /* WGTabbarController */,
 				D6F9A0131A6C955800F698F7 /* AppDelegate.h */,
 				D6F9A0141A6C955800F698F7 /* AppDelegate.m */,
-				D6F9A0161A6C955800F698F7 /* ViewController.h */,
-				D6F9A0171A6C955800F698F7 /* ViewController.m */,
 				D6F9A0191A6C955800F698F7 /* Main.storyboard */,
 				D6F9A01C1A6C955800F698F7 /* Images.xcassets */,
 				D6F9A01E1A6C955800F698F7 /* LaunchScreen.xib */,
 				D6F9A00F1A6C955800F698F7 /* Supporting Files */,
+				D6C0AF6E1A6CE74D0057FE9D /* WGTabbarAnimation.h */,
+				D6C0AF6F1A6CE74D0057FE9D /* WGTabbarAnimation.m */,
 			);
 			path = WGCustomTabbarController;
 			sourceTree = "<group>";
@@ -199,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D861071A6D03AF00E52F5A /* bottom_indicator.png in Resources */,
 				D6F9A01B1A6C955800F698F7 /* Main.storyboard in Resources */,
 				D6F9A0201A6C955800F698F7 /* LaunchScreen.xib in Resources */,
 				D6F9A01D1A6C955800F698F7 /* Images.xcassets in Resources */,
@@ -219,9 +255,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6F9A0181A6C955800F698F7 /* ViewController.m in Sources */,
+				D6C0AF701A6CE74D0057FE9D /* WGTabbarAnimation.m in Sources */,
 				D6F9A0151A6C955800F698F7 /* AppDelegate.m in Sources */,
+				D6D860FE1A6D035800E52F5A /* WGTabbarController.m in Sources */,
+				D6D8610A1A6D03AF00E52F5A /* LDTabBaseCell.m in Sources */,
+				D6D861091A6D03AF00E52F5A /* LDTabbarItemCollectionView.m in Sources */,
 				D6F9A0121A6C955800F698F7 /* main.m in Sources */,
+				D6D861081A6D03AF00E52F5A /* LDTabbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +452,7 @@
 				D6F9A0311A6C955800F698F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6F9A0321A6C955800F698F7 /* Build configuration list for PBXNativeTarget "WGCustomTabbarControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +461,7 @@
 				D6F9A0341A6C955800F698F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

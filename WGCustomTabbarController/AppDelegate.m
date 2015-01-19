@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "WGTabbarController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,36 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    UIViewController *vc1 = [[UIViewController alloc] init];
+    vc1.view.backgroundColor = [UIColor yellowColor];
+    
+    UIViewController *vc2 = [[UIViewController alloc] init];
+    vc2.view.backgroundColor = [UIColor redColor];
+    
+    UIViewController *vc3 = [[UIViewController alloc] init];
+    vc3.view.backgroundColor = [UIColor orangeColor];
+    
+    UIViewController *vc4 = [[UIViewController alloc] init];
+    vc4.view.backgroundColor = [UIColor greenColor];
+    
+    UIViewController *vc5 = [[UIViewController alloc] init];
+    vc5.view.backgroundColor = [UIColor grayColor];
+    
+    UIViewController *vc6 = [[UIViewController alloc] init];
+    vc6.view.backgroundColor = [UIColor greenColor];
+    
+    WGTabbarController *tabBarVC = [[WGTabbarController alloc] init];
+    tabBarVC.viewControllers = @[vc1, vc2, vc3, vc4, vc5, vc6];
+    tabBarVC.tabbarItems = @[@"首页", @"收藏", @"个人中心", @"设置", @"关于", @"主题"];
+    
+    self.window.rootViewController = tabBarVC;
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
